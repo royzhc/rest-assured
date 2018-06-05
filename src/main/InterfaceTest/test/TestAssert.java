@@ -14,7 +14,7 @@ import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.ResponseAwareMatcher.*;
 import static org.hamcrest.Matchers.*;
 
-public class testassert {
+public class TestAssert {
     @BeforeClass
     public static void setup(){
         useRelaxedHTTPSValidation();

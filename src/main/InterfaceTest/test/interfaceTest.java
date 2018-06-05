@@ -10,7 +10,7 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.*;
 
-public class interfacetest {
+public class interfaceTest {
 
     @Test
     public void gettest(){
