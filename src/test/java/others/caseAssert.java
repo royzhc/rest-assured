@@ -1,4 +1,4 @@
-package junitdemo;
+package others;
 
 import io.restassured.RestAssured;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -14,7 +14,7 @@ import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.ResponseAwareMatcher.*;
 import static org.hamcrest.Matchers.*;
 
-public class TestAssert {
+public class caseAssert {
     @BeforeClass
     public static void setup(){
         useRelaxedHTTPSValidation();
