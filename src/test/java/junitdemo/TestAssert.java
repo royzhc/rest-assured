@@ -1,4 +1,4 @@
-package test;
+package junitdemo;
 
 import io.restassured.RestAssured;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -36,7 +36,7 @@ public class TestAssert {
 
     }
 
-    @Test
+/*    @Test
     public void testTesterHomeJson(){
 
         given()
@@ -57,7 +57,7 @@ public class TestAssert {
                 .body("topics.title.size()",equalTo(10))
                  ;
 
-    }
+    }*/
 
     @Test
     public void testTesterHomeJsonSingle(){
@@ -70,7 +70,7 @@ public class TestAssert {
 
     }
 
-    @Test
+/*    @Test
     public void testTesterHomeJsonGlobal(){
 
         RestAssured.config();
@@ -81,7 +81,7 @@ public class TestAssert {
                 .body("topic.title",equalTo("优质招聘汇总"))
         ;
 
-    }
+    }*/
 
     @Test
     public void testTesterHomeSearch(){
@@ -89,7 +89,7 @@ public class TestAssert {
         .when().get("");
     }
 
-    @Test
+/*    @Test
     public void testXML(){
         Response response = given().when().get("http://127.0.0.1:8000/hogwarts.xml").prettyPeek()
         .then()
@@ -110,9 +110,9 @@ public class TestAssert {
         System.out.println(response.statusCode());
         System.out.println(response.statusLine())
         ;
-    }
+    }*/
 
-    @Test
+/*    @Test
     public void testJsonPost(){
         HashMap<String, Object> data=new HashMap<String, Object>();
         data.put("id",6040);
@@ -130,7 +130,7 @@ public class TestAssert {
                 .when().post("http://www.baidu.com")
                 .then().statusCode(200).time(lessThan(1000L));
 
-    }
+    }*/
 
     @Test
     public void multiApi(){

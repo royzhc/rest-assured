@@ -1,4 +1,4 @@
-package test;
+package junitdemo;
 
 import org.junit.*;
 
